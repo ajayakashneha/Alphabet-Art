@@ -218,7 +218,7 @@ nav div p{
     border-bottom: 5px solid #60249F;
     color: #8030D4;
   }
-  
+
   .pattern3 {
     background-image: url(./assets/designPatterns/pattern3.svg);
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ nav div p{
     border-bottom: 5px solid #1375E4;
     color: #1375E4;
   }
-  
+
   .pattern4 {
     background-image: url(./assets/designPatterns/pattern4.svg);
     background-repeat: no-repeat;
@@ -236,7 +236,7 @@ nav div p{
     border-bottom: 5px solid #DA2D65;
     color: #DA2D65;
   }
-  
+
   .pattern5 {
     background-image: url(./assets/designPatterns/pattern5.svg);
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ nav div p{
     border-bottom: 5px solid #DA2D65;
     color: #D83400;
   }
-  
+
   .pattern6 {
     background-image: url(./assets/designPatterns/pattern6.svg);
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@ nav div p{
     border-bottom: 3px solid #1BB486;
     color: #007352;
   }
-  
+
 /* Footer */
 footer{
     background-color: #1375E4;
@@ -299,6 +299,34 @@ footer{
 .links ul li{
     margin-bottom: 15px;
 }
+.overlay-div {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  opacity: 0.8;
+}
+.fa-xmark {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.overlay-img{
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
 
 
 /* Media query to change grid count and text size for different screen sizes */
