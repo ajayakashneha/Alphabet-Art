@@ -97,7 +97,7 @@ for (let i = 65; i <= 90; i++) {
     let newDiv = document.createElement("div")
     console.log(newDiv);
     let close = document.createElement("i")
-    close.classList.add("fa-solid" ,"fa-xmark")
+    close.classList.add("fa-solid", "fa-xmark")
     newDiv.appendChild(close)
     newDiv.classList.add("overlay-div")
     let newImg = document.createElement("img")
@@ -107,7 +107,7 @@ for (let i = 65; i <= 90; i++) {
 
     imgContainer.addEventListener("click", function () {
         newDiv.style.display = "block";
-        newImg.src =  alphabetImg.src
+        newImg.src = alphabetImg.src
     });
 
     close.addEventListener("click", function () {
