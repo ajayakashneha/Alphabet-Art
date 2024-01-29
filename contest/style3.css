@@ -12,22 +12,15 @@ body {
     top: 300px;
     text-align: center;
 }
-
-.img-div {
-    height: 344px;
-    width: 342px;
-    border-radius: 12px;
-    border-style: dashed;
-    margin: 12px;
-    text-align: center;
-    margin-top: ;
-}
-
 .ArtContest {
     margin-top: 26px;
-    margin-left: 15px;
+    margin-left: 10%;
     color: #8C97A4;
     font-family: Roboto;
+    line-height: 24px;
+    size: 16px;
+    letter-spacing: 0.5%;
+    
 }
 
 .contest-des {
@@ -37,15 +30,28 @@ body {
     font-family: Roboto;
     width: 100%;
 }
+.container {
+    text-align: center;
+    border: #1375E4;
+    
+}
+#multiple{
+    color: #1375E4;
+    letter-spacing: 0.25%;
+    line-height: 20px;
+    size: 14px;
+}
 
-.Descrip {
-    border: solid #8BC7FF 1px;
+textarea {
+    padding: 10px; 
     border-radius: 12px;
+    border: solid 1px #1375E4 ;
     width: 80%;
     height: 50%;
     margin: auto;
     margin-top: 3%;
     font-family: Roboto;
+    line-height: 20px;
 
 }
 
@@ -109,11 +115,15 @@ a {
     width: 342px;
     border-radius: 12px;
     border-style: dashed;
+    border: #8C97A4 solid ;
+    background: #D9EBFF;
+    ;
     margin: 12px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .uplod-div i {
@@ -121,6 +131,7 @@ a {
     align-items: center;
     justify-content: center;
     color: #1375E4;
+    cursor: pointer;
 }
 
 #UploadArtwork {
@@ -135,8 +146,8 @@ i {
 label {
     color: #1375E4;
     font-family: Roboto;
+    cursor: pointer;
 }
-
 footer {
     background-color: #1375E4;
     color: white;
