@@ -173,6 +173,39 @@ nav div p {
   color: #1F7AE0;
   cursor: pointer;
 }
+.tooltip{
+ visibility: hidden;
+  width: 140px;
+  background-color: #555; 
+   color: #fff; 
+   text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute; 
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  transition: opacity 0.3s;
+  font-size: 15px;
+}
+.tooltip .::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+.fa-share-from-square{
+  position: relative;
+}
+  
+
 
 .card {
   position: relative;
@@ -241,6 +274,7 @@ nav div p {
   color: #007352;
 }
 
+
 /* Footer */
 footer #tag {
   text-align: center;
@@ -267,6 +301,7 @@ footer a:hover {
   position: absolute;
   width: 100%;
 }
+
 
 .social-media{
   width: 80%;
